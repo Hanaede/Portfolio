@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="yobien.svg" type="image/x-icon">
+</head>
+<body class="light">
+    <div class="mouse-follower"></div>
+    <div class="grid-background"></div>
+    
+    <nav class="breadcrumb">
+        <a href="#">Home</a>
+        <span>/</span>
+        <a href="all-posts.html">Posts</a>
+        <span>/</span>
+        <a href="all-projects.html">Proyectos</a>
+        <div class="theme-toggle">
+            <button id="theme-toggle">🌙</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="content">
+            <h1>Hola, soy <span class="name">Kike</span> 👋</h1>
+            <p>¡Bienvenido a mi portafolio!</p>
+            <p class="intro">Como desarrollador web, me especializo en transformar ideas en experiencias en línea impactantes. ¡Colaboremos para diseñar tu recorrido digital!</p>
+            <div class="social-links">
+                <a href="#">X</a>
+                <span>/</span>
+                <a href="https://github.com/Hanaede" target="_blank">Github</a>
+                <span>/</span>
+                <a href="https://dev.to/hanaede" target="_blank">dev.to</a>
+            </div>
+        </div>
+        <div class="profile-image">
+            <img src="yobien.svg" alt="Profile photo">
+        </div>
+    </header>
+
+    <section class="latest-posts">
+        <div class="section-header">
+            <h2>Últimos posts (2)</h2>
+            <a href="all-posts.html" class="see-all">See all posts</a>
+        </div>
+        <div class="posts-grid">
+            <a href="https://dev.to/hanaede/day-1-of-365daysofwebdeveloper-1h1k" class="post-card" target="_blank">
+                <div class="post-content">
+                    <h3>¿Por qué inicié mi carrera en el mundo del diseño web?</h3>
+                    <p>Mi experiencia personal como estudiante de DAW</p>
+                </div>
+                <div class="post-meta">
+                    <span class="date">23/09/2023</span>
+                    <span class="arrow">→</span>
+                </div>
+            </a>
+            <a href="#" class="post-card">
+                <div class="post-content">
+                    <h3>How to use AliExpress Affiliates</h3>
+                    <p>Resolve Affiliate tagging issues on AliExpress links...</p>
+                </div>
+                <div class="post-meta">
+                    <span class="date">23/09/2023</span>
+                    <span class="arrow">→</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="latest-projects">
+        <div class="section-header">
+            <h2>Últimos proyectos (2)</h2>
+            <a href="all-projects.html" class="see-all">See all projects</a>
+        </div>
+        <div class="projects-grid">
+            <a href="https://memoriaycinedomestico.netlify.app/" class="post-card" target="_blank">
+                <div class="post-content">
+                    <h3>Realización del diseño y la creación de una web para unas jornadas de conservación de cine doméstico</h3>
+                    <p>HTML • CSS3 • JS</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+            <a href="https://cultco.netlify.app/" class="post-card" target="">
+                <div class="post-content">
+                    <h3>Realización del diseño y la creación de una web para una agenda cultural</h3>
+                    <p>HTML • CSS • JS</p>
+                </div>
+                <span class="arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="tech-stack">
+        <h2>Mis habilidades tecnológicas</h2>
+        <div class="tech-grid">
+            <div class="tech-item">
+                <img src="icons/html5.svg" alt="HTML">
+            </div>
+            <div class="tech-item">
+                <img src="icons/css3.svg" alt="CSS">
+            </div>
+            <div class="tech-item">
+                <img src="icons/js.svg" alt="JavaScript">
+            </div>
+            <div class="tech-item">
+                <img src="icons/react.svg" alt="React">
+            </div>
+            <div class="tech-item">
+                <img src="icons/php.svg" alt="PHP">
+            </div>
+            <div class="tech-item">
+                <img src="icons/git.svg" alt="Git">
+            </div>
+            <div class="tech-item">
+                <img src="icons/github.svg" alt="GitHub">
+            </div>
+            <div class="tech-item">
+                <img src="icons/postgresql.svg" alt="PostgreSQL">
+            </div>
+            <div class="tech-item">
+                <img src="icons/mysql.svg" alt="PostgreSQL">
+            </div>
+            <div class="tech-item">
+                <img src="icons/aws.svg" alt="aws">
+            </div>
+            <div class="tech-item">
+                <img src="icons/figma.svg" alt="Figma">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>¿Hablamos?</h2>
+        <p>Mándame un email a <a href="mailto:your@email.com">hanaededev@gmail.com</a> o sígueme en mis redes sociales.</p>
+        <div class="social-links">
+            <a href="#">X</a>
+            <span>/</span>
+            <a href="https://github.com/Hanaede" target="_blank">Github</a>
+            <span>/</span>
+            <a href="https://dev.to/hanaede" target="_blank">dev.to</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
